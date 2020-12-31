@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url('images/bg-pattern-bottom.svg');
+    background-color: hsl(185, 75%, 39%);
+    background-repeat:repeat;
+    background-position:50px 75%;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-origin: border-box;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.city,.stats-name,.age
+{
+    color:#9696a0;
+    font-size: 16px;
+}
+.name,.count
+{
+    font-weight: 700;
+    color:#313038;
+}
+.name
+{
+    margin-bottom: 0.5em;
+}
+
+
+.age
+{
+    margin-left:0.3em;
+    font-size: inherit;
+    font-weight: 400;
+    
+}
+.stats-name
+{
+    font-size: 14px;
+}
+.victor-image
+{
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    top:-40px;
+    display: block;
+    margin: 0 auto;
+    padding: 0.2em;
+}
+.image-container
+{
+    background-color: #fff;
+}
+
+.card
+{
+    width: 25%;
+    margin: 7em auto;
+}
+
+.card-top
+{
+    padding:20%;
+    background-image: url('images/bg-pattern-card.svg');
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.profile-details
+{
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 1em;
+    
+}
+
+.card-bottom,.card-stats
+{
+    background-color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:0 1em;
+    
+}
+
+
+.card-stats
+{
+    display: flex;
+    justify-content: space-evenly;
+    border-top:1px solid #e7e7e7;
+    padding:1em 0;
+   
+}
+.count
+{
+    margin:0.5em 0;
+    text-align: center;
+    
+}
+.stats-name
+{
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+}
+
+.attribution
+{
+    margin-top:5em ;
+}
+
+/* 
+  Media Queries 
+*/
+
+@media only screen and (max-width: 600px)
+{
+  .card
+  {
+     width: 70%;
+     margin:0 auto;
+     display: flex;
+     flex-direction: column;
+     margin-top:3em;
+    
+  }
+}
+@media (min-width: 601px) and (max-width:1000px)
+{
+  .card
+  {
+     width: 40%;
+     margin:0 auto;
+     display: flex;
+     flex-direction: column;
+     margin-top:3em;
+  }
+}
+
